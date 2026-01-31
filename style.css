@@ -424,6 +424,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    overflow-x: hidden; 
     padding: 1rem;
   }
 
@@ -435,6 +436,7 @@ body {
     transform: none; 
     top: auto;
     left: auto;
+    text-align: center;
   }
 
   .question-container {
@@ -442,26 +444,31 @@ body {
     top: auto;
     left: auto;
     text-align: center;
+    margin-bottom: 1rem; 
   }
 
   .local-gif {
     max-width: 100%; 
     height: auto;
+    margin: 0 auto 2rem auto; 
   }
 
   .question {
     font-size: 2rem; 
+    margin-bottom: 1rem; 
   }
 
   .button-container {
     flex-wrap: wrap; 
     gap: 1rem;
+    justify-content: center; 
   }
 
   .btn {
     position: relative; 
     padding: 12px 20px;
     font-size: 16px;
+    margin: 0 auto;
   }
 
   .yes-btn,
@@ -476,5 +483,11 @@ body {
     left: auto;
     transform: none;
     margin-top: 2rem;
+    text-align: center; 
+  }
+
+  .result-container h2 {
+    font-size: 2rem; 
   }
 }
+
